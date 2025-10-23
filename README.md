@@ -40,9 +40,8 @@ npm install
 # Start the dev server
 npm run dev
 
-حتماً سروش! این هم یه  حرفه‌ای برای پروژه‌ی  که نشون می‌ده تو چطور بخش طراحی با Tailwind CSS رو در React تمرین کردی. آماده‌ست برای کپی‌کردن و استفاده در GitHub ✅
 
-📄 README.md
+
 
 src/ ├── assets/           # Static images and icons ├── components/       # Reusable UI components (e.g. LoginForm) ├── App.tsx           # Main app component ├── main.tsx          # Entry point └── index.css         # Tailwind base styles
 
