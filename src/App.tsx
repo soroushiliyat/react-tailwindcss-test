@@ -20,7 +20,7 @@ function App() {
           onClick={() => setDarkMode(!darkMode)}
           className="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white px-4 py-2 rounded shadow hover:scale-105 transition-transform"
         >
-          {darkMode ? '☀️ حالت روشن' : '🌙 حالت شب'}
+          {darkMode ? '☀️ Light' : '🌙Dark'}
         </button>
       </div>
       <LoginForm />
