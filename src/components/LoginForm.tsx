@@ -10,18 +10,18 @@ function LoginForm() {
     >
       <div className="bg-white dark:bg-gray-800 p-6 sm:p-8 md:p-10 rounded-lg shadow-lg w-full max-w-md transition-all duration-500 hover:shadow-xl">
         <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white text-center">
-          ورود به حساب کاربری
+          Login to Your Account
         </h2>
         <form className="space-y-4 flex flex-col">
           <div className="flex flex-col space-y-4">
             <input
               type="email"
-              placeholder="ایمیل"
+              placeholder="Email"
               className="w-full p-3 rounded border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
             />
             <input
               type="password"
-              placeholder="رمز عبور"
+              placeholder="Password"
               className="w-full p-3 rounded border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300"
             />
           </div>
@@ -29,7 +29,7 @@ function LoginForm() {
             type="submit"
             className="w-full bg-primary text-white py-3 rounded hover:bg-indigo-600 transition-colors duration-300"
           >
-            ورود
+            Login
           </button>
         </form>
       </div>
